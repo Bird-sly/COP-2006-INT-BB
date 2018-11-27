@@ -15,7 +15,7 @@ public class CollegeClass {
   public CollegeClass() {
     name = "Not set";
     credits = 0;
-    roster = new String[60];
+    roster = new String[6];
   }
 
   // overloaded
