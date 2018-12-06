@@ -1,4 +1,5 @@
 package main;
+
 import java.util.Scanner;
 
 public class WeekTwoElements {
@@ -11,7 +12,7 @@ public class WeekTwoElements {
 
 
   }
-  
+
 
 
 }

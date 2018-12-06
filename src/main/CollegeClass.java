@@ -1,7 +1,7 @@
 package main;
 
 public class CollegeClass {
-
+    public static void do7() {
   // fields
   private String name;
   private int credits;
@@ -19,7 +19,17 @@ public class CollegeClass {
   }
 
   // overloaded
-  public CollegeClass(String name, int credits, String[] roster) {
+  public void CollegeClass(String name, int credits, String[] roster) {
+    Brendan.printGrade(85);
+    CollegeClass cop2006 = new CollegeClass();
+    cop2006.printInfo();
+    cop2006.setName("COP 2006");
+    cop2006.setCredits(4);
+    String[] names = new String[3];
+    names[0] = * "brendan";
+    names[1] = "zacc";
+    names[2] = "tim";
+   
     this.name = name;
     this.credits = credits;
     this.roster = roster;
@@ -55,8 +65,11 @@ public class CollegeClass {
     System.out.println("College Class");
     System.out.println(name);
     System.out.println(credits);
-    for(int i = 0; i < roster.length; i++)
-    {    System.out.println(roster[i]);}
-  }
+    for(int i = 0; i < roster.length; i++){
+      System.out.println(roster[i]);
+      }
+    }
+}
+   
 
 }
