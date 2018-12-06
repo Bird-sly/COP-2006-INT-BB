@@ -1,4 +1,4 @@
-package main;
+/*package main;
 
 public class CollegeClass {
     public static void do7() {
@@ -73,3 +73,4 @@ public class CollegeClass {
    
 
 }
+*/

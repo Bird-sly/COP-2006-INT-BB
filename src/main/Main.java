@@ -1,8 +1,6 @@
 package main;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
-import main.Main;
 
 public class Main {
   static Scanner in = new Scanner(System.in);
@@ -13,12 +11,11 @@ public class Main {
   }
 
   public static void display_menu() {
-    System.out.println(
-        "1) Hello world 1\n2) Elements 2\n3) TicTacToe Game 3\n4) Area of a Bedroom 4\n5) Option 5\n6) Option 6");
+    System.out.println("1) Hello world \n2) Elements \n3) TicTacToe Game \n4) Area of a Bedroom \n5) Option \n6) Option \n7) option ");
     System.out.print("Selection: ");
   }
 
-  // while loop
+
   // Add
 
 
@@ -49,7 +46,8 @@ public class Main {
           break;
 
         case 4:
-          WeekFour.do4(); // Classes and Methods
+          System.out.println("You picked option 4"); // Classes and Methods
+          WeekFour.do4();
           break;
 
         case 5:
@@ -60,23 +58,16 @@ public class Main {
           WeekSix.do6();
           break;
 
-        case 7:
-          CollegeClass.do7();
-          break;
-          
-        case 8:
-          WeekFive.do5();
-          break;
-
-        case 9:
-          WeekSix.do6();
-          break;
-
-        case 10:
-          CollegeClass.do7();
-          break; 
-          
-        default:
+        /*
+         * case 7: CollegeClass.do7(); break;
+         * 
+         * /* case 8: WeekFive.do5(); break;
+         * 
+         * case 9: WeekSix.do6(); break;
+         * 
+         * case 10: CollegeClass.do7(); break;
+         * 
+         */ default:
           System.err.println("Unrecognized option");
           break;
 
