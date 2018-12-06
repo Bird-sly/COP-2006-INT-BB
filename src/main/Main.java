@@ -3,7 +3,7 @@ package main;
 import java.util.Scanner;
 
 public class Main {
-
+//all about gui
 	public void display_menu() {
 		System.out.println("1) Option 1\n2) Option 2\n3) Option 3\n4) Option 4\n5) Option 5\n6) Option 6");
 		System.out.print("Selection: ");
