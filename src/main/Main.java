@@ -1,26 +1,30 @@
 package main;
 
+/*
+ * Brendan Beardsley
+ * 
+ * Descriptions at the bottom 
+ */
+
 import java.util.Scanner;
 
 public class Main {
-  static Scanner in = new Scanner(System.in);
+	static Scanner in = new Scanner(System.in);
 
-  // all about gui
-  public void welcome() {
-    System.out.print("Welcome to my Program");
-  }
+	// all about gui
+	public void welcome() {
+		System.out.print("Welcome to my Program");
+	}
 
-  public static void display_menu() {
-    System.out.println("1) Hello world \n2) Elements \n3) TicTacToe Game \n4) Area of a Bedroom \n5) Option \n6) Option \n7) option ");
-    System.out.print("Selection: ");
-  }
+	public static void display_menu() {
+		System.out.println("1) Hello world \n2) Elements \n3) TicTacToe  \n4)Area \n5)Phone \n6)Bird \n7)Classes  \n8)Strings  \n9)Score \n10) Polymorphism ");
+		System.out.println("11) final \n12 do while loop \n13 continue example \n14 Overloaded Method \n15 Array scanner one D \n16 Random \n17 2 D array \n18 small");
+		System.out.print("Selection: ");
+	}
 
+	// Add
 
-  // Add
-
-
-
-  public static void main(String[] args) {
+	public static void main(String[] args) {
     boolean continueProgram = true;
     while (continueProgram) {
       display_menu();
@@ -40,7 +44,7 @@ public class Main {
           break;
 
         case 3:
-          System.out.println("You picked option 3");
+          System.out.println("You picked option 3");//array
           TicTacToe.do3();
 
           break;
@@ -51,23 +55,74 @@ public class Main {
           break;
 
         case 5:
+        	System.out.println("You picked option 5");//
           WeekFive.do5();
           break;
 
         case 6:
+        	System.out.println("You picked option 6");//
           WeekSix.do6();
           break;
 
-        /*
-         * case 7: CollegeClass.do7(); break;
-         * 
-         * /* case 8: WeekFive.do5(); break;
-         * 
-         * case 9: WeekSix.do6(); break;
-         * 
-         * case 10: CollegeClass.do7(); break;
-         * 
-         */ default:
+         case 7:
+        	 System.out.println("You picked option 7");//
+        	 Classes.do7();
+          break;
+         
+          case 8:
+        	  System.out.println("You picked option 8");//
+        	  Strings.do8(); 
+          break;
+          
+       
+          case 10:
+        	  System.out.println("You will see some melee characters");// polymorphism and  inheritance
+        	  Creature.do10(); 
+          break;
+          
+          case 11:
+        	  System.out.println("Final");// final
+        	  FinalVariable.do11(); 
+          break;
+          
+          case 12:
+         	 System.out.println("You picked option 12");//do/while loops
+         	DoWhileLoop.do12(); 
+          break;
+           
+          case 13:
+          	 System.out.println("You picked option 13");//used continue
+          	ContinueClass.do13(); 
+           break;
+            
+          case 14:
+          	 System.out.println("You picked option 14");// Overloaded a method
+          	DisplayOverloading.do14(); 
+           break;
+            
+          case 15:
+          	 System.out.println("You picked option 15");//Array scanner one dimensional 
+          	OnedimensionalScanner.do15(); 
+           break;
+            
+          case 16:
+          	 System.out.println("You picked option 16");//random class 
+          	RandomClass.do16(); 
+           break;
+            
+          case 17:
+          	 System.out.println("You picked option 17");//Two dimensional array
+          	TwodArray.do17(); 
+           break;
+           
+          case 18:
+           	 System.out.println("You picked option 18");//smallest number in array
+           	SmallestNumber.do18(); 
+            break;
+             
+            
+         
+         default:
           System.err.println("Unrecognized option");
           break;
 
@@ -97,23 +152,81 @@ public class Main {
   }
 
 }
+/*
+ * WeekTwo-int
+ * TicTacToe-int,
+ * WeekFour- double 
+ * WeekFive- string
+ * 
+ * 
+ * 
+ */
+
+
+
 
 
 
 /*
- * package main;
- * 
- * import java.util.Arrays; import java.util.InputMismatchException; import java.util.Scanner;
- * import main.TicTacToe;
- * 
- * 
- * class Main {
- * 
- * public static void main(String[] args) throws java.lang.Exception {
- * 
- * Brendan.printGrade(85); CollegeClass cop2006 = new CollegeClass(); cop2006.printInfo();
- * cop2006.setName("COP 2006"); cop2006.setCredits(4); String[] names = new String[3]; names[0] =
- * "brendan"; names[1] = "zacc"; names[2] = "tim"; cop2006.setRoster(names); cop2006.printInfo();
- * 
- * } }
+ * Final :
+ * If you make any variable as final,
+ *  you cannot change the value of final variable
  */
+
+/*
+ * Inheritance:
+ * Inheritance can be defined as the process where one class
+ *  acquires the properties(methods and fields) of another. 
+ * With the use of inheritance the information
+ *  is made manageable in a hierarchical order.
+ * 
+ */
+
+/*
+ * operator precedence:
+ * Operator precedence is the order of operations within java when you use math. 
+ * There is a operator precedence table that shows
+ * how the order goes
+ */
+
+
+/*
+ * Casting:
+ * casting is taking an Object of one type
+ *  and turning it into another Object type.
+ *  This process is called casting a variable.
+ */
+
+/*
+ * byte: The byte data type is an 8-bit 
+ * signed two's complement integer. It has a
+ *  minimum value of -128 and a maximum value of 127 (inclusive). 
+ */
+
+/*
+ * short: The short data type is a 16-bit signed 
+ * two's complement integer. It has a minimum value 
+ * of -32,768 and a maximum value of 32,767 (inclusive).
+ */
+
+/*
+ * int: By default, the int data type is a 32-bit signed two's
+ *  complement integer, which has a minimum value 
+ *  of -2^31 and a maximum value of 2^31-1
+ */
+
+
+
+/*
+ * Define a method
+ * Method header:
+ * public statice int max("parameters"int num1, num2){
+ */
+
+
+
+
+
+
+
+

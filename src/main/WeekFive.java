@@ -5,13 +5,13 @@ public class WeekFive {
   public static void do5() {
     // Class Demonstration
     CellPhone myPhone = new CellPhone();
-    myPhone.setManufacturer("Motorola");
+    myPhone.setManufacturer("Apple");
     System.out.println(myPhone.getManufacturer());
   }
 }
 
 
-// class, really should be in a separate file
+
 class CellPhone {
 
   // field
