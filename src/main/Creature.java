@@ -1,8 +1,12 @@
 package main;
 import java.util.Scanner;
-
+/*
+ * Inheritance minimize the amount of duplicate code 
+ * Inheritance can also make application code more flexible to change 
+ * 
+ */
 public class Creature {
-
+//this stream is to connect to main
   public static void do10() {
     System.out.println("Module 10");
     Fox foxMcCloud = new Fox();
@@ -38,7 +42,7 @@ class Fox extends Animal {
   public String showSpecies() {
     return "Fox McCloud";
   }
-
+//this will print 
   public void makeSound() {
     System.out.println("Come One!");
   }
@@ -54,8 +58,9 @@ class Felcon extends Animal {
   public String showSpecies() {
     return species;
   }
-
+//print in end
   public void makeSound() {
     System.out.println("Is that all you got?");
   }
+  
 }

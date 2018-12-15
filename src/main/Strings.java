@@ -1,6 +1,8 @@
 package main;
 import java.util.Scanner;
-
+/*
+ * module03Strings in COP 2006
+ */
 public class Strings {
 
   public static void do8() {

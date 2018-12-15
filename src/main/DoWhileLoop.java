@@ -7,9 +7,9 @@ public class DoWhileLoop {
 
 	  public static void do12() {
     /*
-     * Do while loop executes statment until certain condition become false.
-     * Syntax of do while loop is
-     * 
+     * Do while loop executes 
+     * statment until certain condition become false.
+     * proud of this loop 
      *loop will be executed at least once
   */
     int i =0;   
@@ -20,6 +20,6 @@ public class DoWhileLoop {
       i++;
       
     }while(i < 5);
-    
+    //while loop 
   }
 }

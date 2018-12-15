@@ -18,7 +18,8 @@ public class Main {
 
 	public static void display_menu() {
 		System.out.println("1) Hello world \n2) Elements \n3) TicTacToe  \n4)Area \n5)Phone \n6)Bird \n7)Classes  \n8)Strings  \n9)Score \n10) Polymorphism ");
-		System.out.println("11) final \n12 do while loop \n13 continue example \n14 Overloaded Method \n15 Array scanner one D \n16 Random \n17 2 D array \n18 small");
+		System.out.println("11) final \n12 do while loop \n13 continue example\n14 overload \n15 scanner one d \n16 random \n17 2 d small \18 array ");
+		System.out.println("19) boolean \n20 small int \n21 c Escape \n22 super  \n23 math class \n24 sum \2 sum 5");
 		System.out.print("Selection: ");
 	}
 
@@ -35,7 +36,7 @@ public class Main {
           WeekOneHello.do1();
 
 
-          break;
+        break;
 
         case 2:
           System.out.println("You picked option 2");
@@ -119,6 +120,42 @@ public class Main {
            	 System.out.println("You picked option 18");//smallest number in array
            	SmallestNumber.do18(); 
             break;
+          case 19:
+        	  System.out.println("Boolian");//Boolian variables
+        	 BooleanExample.do19(); 
+          break;
+          
+          case 20:
+        	  System.out.println("smallest value");// in array finds smallest int
+        	 FindSmallest.do20(); 
+          break;
+          
+          case 21:
+        	  System.out.println("Formating");//format
+        	  Format.do21(); 
+          break;
+          
+          case 22:
+        	  System.out.println("esc Sequences");//esc 
+        	 EscapeSequences.do22(); 
+          break;
+          
+          case 23:
+        	  System.out.println("Super");//Super
+        	  SuperOC.do23(); 
+          break;
+          
+          case 24:
+        	  System.out.println("Math class");//Class for math
+        	  MathClass.do24(); 
+          break;
+          
+          case 25:
+        	  System.out.println("Sum array");// finding the sum of an array
+        	  SumArray.do25(); 
+          break;
+          
+         
              
             
          
@@ -128,7 +165,7 @@ public class Main {
 
 
       }
-
+//end gui
       System.out.println("Would you like to proceed or choose something else?");
       System.out.println("To end enter 9.");
       System.out.println("If you wish to continue enter 0.");
@@ -143,7 +180,7 @@ public class Main {
           System.out.println("Thank you and goodbye");
           continueProgram = false;
           break;
-
+//break is to make loop continue
         default:
           System.err.println("Unrecognized option");
           break;
